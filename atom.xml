@@ -3,78 +3,412 @@
     <id>https://ilgetar.github.io</id>
     <title>十三零</title>
     <link href="https://ilgetar.github.io" />
-    <updated>2025-08-16T10:18:37.686Z</updated>
+    <updated>2025-08-27T17:25:10.000Z</updated>
     <category term="web" />
     <category term="guide" />
-    <category term="随笔" />
+    <category term="Java" />
     <entry>
-        <id>https://ilgetar.github.io/2025/08/16/%E6%AD%A6%E6%B1%89%E6%97%85%E8%A1%8C%E6%8C%87%E5%8D%97/</id>
-        <title>武汉实用游览指南</title>
-        <link rel="alternate" href="https://ilgetar.github.io/2025/08/16/%E6%AD%A6%E6%B1%89%E6%97%85%E8%A1%8C%E6%8C%87%E5%8D%97/"/>
-        <content type="html">&lt;h1 id=&#34;武汉实用游览指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#武汉实用游览指南&#34;&gt;#&lt;/a&gt; &lt;strong&gt;武汉实用游览指南&lt;/strong&gt;&lt;/h1&gt;
+        <id>https://ilgetar.github.io/2025/08/28/JAVA/</id>
+        <title>JAVA</title>
+        <link rel="alternate" href="https://ilgetar.github.io/2025/08/28/JAVA/"/>
+        <content type="html">&lt;h1 id=&#34;java语言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java语言&#34;&gt;#&lt;/a&gt; JAVA 语言&lt;/h1&gt;
+&lt;h1 id=&#34;第一章-java入门&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一章-java入门&#34;&gt;#&lt;/a&gt; 第一章 Java 入门&lt;/h1&gt;
+&lt;h3 id=&#34;1java的地位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1java的地位&#34;&gt;#&lt;/a&gt; 1.JAVA 的地位&lt;/h3&gt;
+&lt;p&gt;历史上施乐公司给出了第一代图形化界面。相比较控制台，图形化界面的缺点：速度慢，消耗内存&lt;/p&gt;
+&lt;p&gt;完全面向对象，与平台无关，安全稳定，解释的，多线程，跨平台，动态的语言&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最大的优点：平台无关性。通过 JAVA 虚拟机（Java virtual machine）实现跨平台和安全性。所以在解释的时候，只看.class 文件。存在不同的虚拟机，可以开发自己的虚拟机。目前主要为 Hotspot VM。不同语言都可以通过各自对应的编译器生成结构相同的字节码文件，JVM 只认识字节码。JVM 加载字节码文件，通过不同操作系统转换为对应的机器码。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 web 开发和 Android 开发都占主体地位，严格类型检查，提供了垃圾回收机制&lt;/p&gt;
+&lt;p&gt;常用于大数据和人工智能开发&lt;/p&gt;
+&lt;h3 id=&#34;2语言层级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2语言层级&#34;&gt;#&lt;/a&gt; 2. 语言层级&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-04-10-11-46-431_cn.wps.moffice_.png&#34; alt=&#34;Screenshot_2023-09-04-10-11-46-431_cn.wps.moffice_.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3推荐资料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3推荐资料&#34;&gt;#&lt;/a&gt; 3. 推荐资料&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMVJ4NDExODc2Zj9mcm9tPXNlYXJjaCZhbXA7c2VpZD0yNDYxNjYzNjk4NjUwNTM5MzYx&#34;&gt;https://www.bilibili.com/video/BV1Rx411876f?from=search&amp;amp;seid=2461663698650539361&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzU3NDg3OTAxL2FydGljbGUvZGV0YWlscy8xMjM5NjU2NDY=&#34;&gt;https://blog.csdn.net/m0_57487901/article/details/123965646&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4jrejdk与jvm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4jrejdk与jvm&#34;&gt;#&lt;/a&gt; 4.JRE，JDK，与 JVM&lt;/h3&gt;
+&lt;p&gt;JRE：JAVA 运行环境&lt;/p&gt;
+&lt;p&gt;JDK：JAVA 开发工具包&lt;/p&gt;
+&lt;p&gt;JVM：JAVA 虚拟机&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-04-11-18-12-674_cn.wps.moffice_.png&#34; alt=&#34;Screenshot_2023-09-04-11-18-12-674_cn.wps.moffice_.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5安装&#34;&gt;#&lt;/a&gt; 5. 安装&lt;/h3&gt;
+&lt;p&gt;下载 JDK20 存档即可&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamF2YS5jb20vemgtQ04v&#34;&gt;https://www.java.com/zh-CN/&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;6jvm整体结构难点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6jvm整体结构难点&#34;&gt;#&lt;/a&gt; 6.JVM 整体结构（难点）&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-04-11-39-44-541_cn.wps.moffice_.png&#34; alt=&#34;Screenshot_2023-09-04-11-39-44-541_cn.wps.moffice_.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;7集成环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#7集成环境&#34;&gt;#&lt;/a&gt; 7. 集成环境&lt;/h3&gt;
+&lt;p&gt;开发 JAVA 程序：JVM，核心类库（已经写好的代码），开发工具（javac 等），合称 JDK。运行 JAVA 程序不需要开发工具。&lt;/p&gt;
+&lt;p&gt;JRE: 运行环境，需要下载才能运行 Java，包含 JVM, 核心类库，运行工具。&lt;/p&gt;
+&lt;p&gt;intelliJIDEA,VS,Textpad 等&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9pZGVhL2Rvd25sb2FkLz9zZWN0aW9uPXdpbmRvd3M=&#34;&gt;https://www.jetbrains.com/idea/download/?section=windows&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;71-jdk目录释义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#71-jdk目录释义&#34;&gt;#&lt;/a&gt; 7.1 JDK 目录释义&lt;/h4&gt;
+&lt;p&gt;bin：可执行文件目录， 主要是使 Java 编程语言编程过程中帮助开发、执行、调试并且可以生成文档所需要的可执行程序。&lt;br /&gt;
+conf：根据名字可知， 这个是用户可配置的配置项文件， 可以根据配置调整 JDK 的访问权限， 配置安全算法， 还有 JDK 加密扩展策略配置等。&lt;br /&gt;
+include：C 语言头文件， 主要是用来 Java 本地虚拟机（JVM）调试本地的代码&lt;br /&gt;
+ jmods：使用 jlink 去自定义的编译模块化运行环境。&lt;br /&gt;
+legal：每个模块的许可证和版权文件， 还包含第三方的通知文件。 使用 md 文件描述。&lt;br /&gt;
+lib：JDK 要求的其他类库和支持文件。这些文件不能使用外部调用。&lt;/p&gt;
+&lt;h4 id=&#34;72-bin工具包释义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#72-bin工具包释义&#34;&gt;#&lt;/a&gt; 7.2 bin 工具包释义&lt;/h4&gt;
+&lt;p&gt;Javac：Java 编译器，用来将 java 程序编译成 Bytecode。&lt;br /&gt;
+Java：Java 解释器，执行已经转换成 Bytecode 的 java 应用程序。&lt;br /&gt;
+Javap：反编译，将类文件还原回方法和变量。&lt;br /&gt;
+Jar：打包工具。&lt;/p&gt;
+&lt;h3 id=&#34;8第一个java程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8第一个java程序&#34;&gt;#&lt;/a&gt; 8. 第一个 JAVA 程序&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;原味热干面不会超过五块钱，如果高于这个价格，请不要尝试，千万不要和老板搭话。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;黄鹤楼不会出现黄鹤，如果看见了，请直接离开。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;红墙系高级管理员运营维护，请不要影响祂的正常工作。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;如果遇到野生的藕汤，请及时上报工作人员，不要私自食用！不要私自食用！&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;少部分城市区域会出现高温现象，请&lt;s&gt;不&lt;/s&gt;要频繁外出，造成不必要的损失。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;城市主要交通为大型交通设施，请小心身边每一个戴帽子的人。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;乘坐地铁等公共交通的时候，请不要携带任何有可能造成反光的物件，如果发现，请第一时间丢弃。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;图书馆很少出现研究生以外的学生，如果遇到请及时和工作人员反馈并迅速离开现场。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;如果深夜不小心误食了深色食物，请及时联系黑帽子的工作人员。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;遇到需要帮助的人请转交给黑帽子的管理员，不要信任没有证件的工作人员。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;你的同伴不会同时出现两个，如果出现复数请远离祂们。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;黑帽子管理员一般不会在深夜与你对话，如果遇到，千万不要答复。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;某些大型建筑物会定时关闭，请提前查阅黄历。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不要被亲友以外的人拍到单人照，如果遇到请寻求最近的管理员帮助。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不要在午间前往野外！不要在午间前往野外！不要在午间前往野外！&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;请远离大部分交通干道，避免在 15-20 点出行&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;建立源代码文件目录，新建 TXT 文本，修改后缀名为 Java。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;编写相关代码。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开控制台，使用 “javac 你的代码” 编译 JAVA 类文件，注意当前目录和 javac 的目录路径。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 “Java 你的代码” 执行 JAVA 程序&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;解读 1（正常版）：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;HelloWorld&lt;/span&gt;&lt;span class=&#34;comment&#34;&gt;//注意：公共类必须文件名与类名相同，私有类反之&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt;&lt;span class=&#34;comment&#34;&gt;//固定格式&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;hello world ！&amp;quot;&lt;/span&gt;);&lt;span class=&#34;comment&#34;&gt;//面向对象格式&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;例如：（控制台使用 jar 打包 class 文件，指定路径为 C:\User\java, 命名为 hello1.jar）&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;jar -cvf C:\User\java\hello1.jar *.class&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;环境变量&lt;/strong&gt;：cmd 操作命令查询位置，如果想要在任意目录下都可以打开指定的软件，可以考虑把目标路径配置到环境变量里。注意新建编辑环境变量之后，必须要重新启动 cmd 控制台&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;注意：如果在 Java 源代码中要输出中文字符，可以使用默认的 utf-8 的编码来保存源文件，但在编译时，需要加上 - encoding utf8 这个选项。例如：&lt;br /&gt;
+javac HelloWorld.java -encoding utf8&lt;/p&gt;
+&lt;h3 id=&#34;9常用的cmd操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#9常用的cmd操作&#34;&gt;#&lt;/a&gt; 9. 常用的 Cmd 操作&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📌cd 切换控制台目录；“\” 返回根目录；“..” 返回上级目录；cls 清屏；&lt;br /&gt;
+dir 查看当前目录信息；set path 设置或查看环境变量（path 后不加空格，path 仅为当前窗口有效，可以在设置 - 系统 - 系统信息中修改）；&lt;br /&gt;
+“.” 表示当前目录；set classpath 设置类路径变量；jar 用于打包类文件，运行时注意 classpath；&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;控制台打开：可以在目录栏里面输入 cmd 打开 cmd，好处是路径直接为当前目录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C: 切换盘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cd\ 回退到盘目录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exit 退出 cmd&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Win+R 快捷打开 cmd&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;cmd 启动应用：找到文件位置，输入文件名启动&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;第二章-java基本语法与概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二章-java基本语法与概念&#34;&gt;#&lt;/a&gt; 第二章 Java 基本语法与概念&lt;/h1&gt;
+&lt;h2 id=&#34;1类与对象&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1类与对象&#34;&gt;#&lt;/a&gt; 1. 类与对象&lt;/h2&gt;
+&lt;h3 id=&#34;11课堂示例程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11课堂示例程序&#34;&gt;#&lt;/a&gt; 1.1 课堂示例程序&lt;/h3&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Point&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt;  &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; x; &lt;span class=&#34;comment&#34;&gt;//属性默认为私有，方法默认为公共&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt;  &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; y;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;//定义一个为output的方法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;x:&amp;quot;&lt;/span&gt;+x);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;y:&amp;quot;&lt;/span&gt;+y);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Test&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[]args)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      Point p1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      p1 = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Point&lt;/span&gt;();&lt;span class=&#34;comment&#34;&gt;//实例化对象&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      p1.output();&lt;span class=&#34;comment&#34;&gt;//调用output方法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;type&#34;&gt;Point&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;p2&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Point&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      p2.output();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📌关于类：只能也只需要定义属性和行为。&lt;br /&gt;
+类的使用：定义完后，先实例化，再调用行为和方法。可以在类的定义里面定义一个公共的方法用来赋初值。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;12-变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12-变量&#34;&gt;#&lt;/a&gt; 1.2 变量&lt;/h3&gt;
+&lt;p&gt;变量的定义格式：数据类型 变量名 = 数据值；&lt;/p&gt;
+&lt;h4 id=&#34;121-数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#121-数据类型&#34;&gt;#&lt;/a&gt; 1.2.1 数据类型&lt;/h4&gt;
+&lt;p&gt;数据类型分为基础数据类型和引用数据类型。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📌long 类型需要加 L 后缀，定义 float 类型时加 f 后缀&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-22-08-44-25-512_com.wolai.flutt.png&#34; alt=&#34;Screenshot_2023-09-22-08-44-25-512_com.wolai.flutt.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片的三种存储&lt;/strong&gt;：黑白图，灰度图，彩色图&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;汉字的存储&lt;/strong&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GBK 字符编码：2000.3.17 收录 21003 个中日韩文字，包括台湾繁体字。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unicode 编码：国际标准字符集，将世界各语言每个字符都唯一编码。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;进制的处理：二进制由 0b 开头，十进制默认，八进制以 0 开头，十六进制用 0x 开头。该特性仅由 JDK7 以后才存在&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;122-数据类型的转型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#122-数据类型的转型&#34;&gt;#&lt;/a&gt; 1.2.2 数据类型的转型&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-17-21-31-01-898_tv.danmaku.bili.png&#34; alt=&#34;Screenshot_2023-09-17-21-31-01-898_tv.danmaku.bili.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-17-21-39-18-497_tv.danmaku.bili.png&#34; alt=&#34;Screenshot_2023-09-17-21-39-18-497_tv.danmaku.bili.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-17-21-35-04-136_tv.danmaku.bili.png&#34; alt=&#34;Screenshot_2023-09-17-21-35-04-136_tv.danmaku.bili.png&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;123标识符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#123标识符&#34;&gt;#&lt;/a&gt; 1.2.3 标识符&lt;/h4&gt;
+&lt;p&gt;即给类、变量，方法的取名。一般依照阿里巴巴命名规范。&lt;/p&gt;
+&lt;p&gt;硬性要求&lt;/p&gt;
+&lt;p&gt;不允许数字开头，不允许使用关键字（关键字是小写），区分大小写，由数字，字母，_和 $ 组成。&lt;/p&gt;
+&lt;p&gt;软性要求&lt;/p&gt;
+&lt;p&gt;小驼峰命名法：一个单词时候全部小写，多个单词时候。第一个单词首字母小写，其它单词首字母保持大写。方法与变量使用较多。例如：name，firstName&lt;/p&gt;
+&lt;p&gt;大驼峰命名法：一个单词时候首字母大写，多个单词时候首字母全部大写。类使用较多。&lt;/p&gt;
+&lt;h4 id=&#34;124键盘录入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#124键盘录入&#34;&gt;#&lt;/a&gt; 1.2.4 键盘录入&lt;/h4&gt;
+&lt;p&gt;Scanner 类&lt;/p&gt;
+&lt;p&gt;1. 导包：必须写在类定义的上面。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.util.Scanner;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;2. 创建对象，使用&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Scanner&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;sc&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Scanner&lt;/span&gt;(System.in);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; sc.nextInt();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h4 id=&#34;125局部变量和成员变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#125局部变量和成员变量&#34;&gt;#&lt;/a&gt; 1.2.5 局部变量和成员变量&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;局部变量的特点&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;原味热干面超过五块就是宰游客来的&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;黄鹤楼不好玩，而且确实没有黄鹤&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;红墙就是一堵地铁门口的墙，超级没劲，只为了两张照片还是没必要跑一趟&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;藕汤特色，但是吃地上捡的会拉稀&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;天气热，注意防晒&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;2 号和 4 号可抵达大部分地方，包括景点和高铁站，人多手杂小心个人物品&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;不要被迫偷拍哩&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;某二字高校保研攻略.jpg&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;晚上吃烧烤容易胖，还停不下来，到时候法师都救不了你&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;需要帮忙找警察不会来找你，注意无亮证不能执法&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;你是不是热出幻觉了&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;致敬传奇深夜学校领导保安上门友好交流事件&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;很多地方需要预约，博物馆等地方会周一闭馆&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;很多给你拍照的都是要收费的，很坑，别被强买强卖了&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;磨山等景区人很多很堵，午间还热&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;武汉交通比较乱注意安全，避开一下高峰期&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;局部变量声明在方法、构造方法或代码块中，只在其声明的范围内有效。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;局部变量在声明时不会被自动初始化，需要在使用之前手动赋值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;局部变量存储在栈内存中，当其声明的范围结束时，会被自动销毁。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;解读 2 （怪谈版）：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;成员变量的特点&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，老板是 “猎犬”，专门为祂们筛选外来的 “兔子”&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，“黄鹤” 是祂们乘坐的交通工具，快跑！！！&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;假情报，红墙是捕食高速奔跑的 “兔子” 用的工具，该情报被覆写过&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，” 藕汤 “是猎犬投下的陷阱，工作人员是 “农夫”，是好人&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，该情报被覆写过，高温是烹饪导致的&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，有少部分猎犬会戴上帽子伪装成 “农夫” 以捕猎落单的 “兔子”&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，” 农夫 “的黑帽子就是为了减少显眼程度&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，“研究生” 是见习 “农夫”，具有特定的身份标识，除此之外都是内鬼&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;假情报，深夜 “农夫” 不工作，只有假 “农夫” 会工作，，深色食物是陷阱&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，“兔子” 无法保护兔子，反而聚集会更危险；真 “农夫” 会提供身份标识&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，两个同伴之中有一个是假的，而且祂无法被分辨&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，可参见【9】&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，关闭的地区是” 猎犬 “和祂们的集会&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，被记录下来很容易被标记为 “兔子”&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;真情报，午间野外正是猎犬们吃午饭的时候&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;假情报，尽量不要落单，下午和晚间正是高峰期，“农夫” 晚上 8 点下班&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;成员变量声明在类中，在整个类内部都可见和访问。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;成员变量在声明时会被自动初始化，数值类型为 0，布尔类型为 false，引用类型为 null。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;成员变量存储在堆内存中，和对象的生命周期保持一致，只有该对象被销毁才会被释放。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;区分使用的几个关键点&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;作用范围：局部变量只在其所声明的方法、构造方法或代码块中有效，而成员变量在整个类内都可见和访问。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;生命周期：局部变量的生命周期仅限于其声明所在的方法、构造方法或代码块，而成员变量与其所属对象的生命周期保持一致。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;初始化：局部变量在声明时不会被自动初始化，需要在使用前手动赋值，而成员变量在声明时会被自动初始化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;访问方式：局部变量一般通过直接引用或传递参数的方式进行访问和使用，成员变量通过对象引用或类名访问。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-方法的多态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13-方法的多态&#34;&gt;#&lt;/a&gt; 1.3 方法的多态&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;IMG_20230908142432495_WiDyF21sJR.jpg&#34; alt=&#34;IMG_20230908142432495_WiDyF21sJR.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;IMG_20230908143317651_Vjxc7ZiOGe.jpg&#34; alt=&#34;IMG_20230908143317651_Vjxc7ZiOGe.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;处理局部变量的局部问题，考虑作用域，使用 this 来指定调用（this 代当前对象方法自己的属性）&lt;/p&gt;
+&lt;p&gt;在找不到需要的方法时，Java 会自己构造一个空方法以合语法。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;IMG_20230908143424984_GZeQTxjOqg.jpg&#34; alt=&#34;IMG_20230908143424984_GZeQTxjOqg.jpg&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;14-方法的重载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#14-方法的重载&#34;&gt;#&lt;/a&gt; 1.4 方法的重载&lt;/h3&gt;
+&lt;h3 id=&#34;15-不同对象之间的关系&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#15-不同对象之间的关系&#34;&gt;#&lt;/a&gt; 1.5 不同对象之间的关系&lt;/h3&gt;
+&lt;p&gt;组合关系：一个类作为另一个类的属性（松散的耦合关系）&lt;/p&gt;
+&lt;p&gt;聚合方式：把你需要的类声明为属性（整体与部分）&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Phone&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt; Sim sim;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt; Battery battery;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;Phone&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;battery = &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Battery&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;setSim&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(Sim sim)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;this&lt;/span&gt;.sim = sim;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;this&lt;/span&gt;.battery=&lt;span class=&#34;built_in&#34;&gt;this&lt;/span&gt;.battery-&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Sim&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt; String cardID;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;Sim&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Battery&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; powerLevel;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;Battery&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;Battery&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; powerLevel)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//测试类&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Client&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;params&#34;&gt;(String[]args)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;16-静态字static&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#16-静态字static&#34;&gt;#&lt;/a&gt; 1.6 静态字 static&lt;/h3&gt;
+&lt;p&gt;可以在不产生实例化对象的情况下调用方法，多用于工具方法。&lt;/p&gt;
+&lt;p&gt;静态方法中不允许不能访问成员变量。（成员变量需要实例化，但是静态变量没有实例化，成员变量的对象不一定实例化，所以为了减少错误，不允许访问）&lt;/p&gt;
+&lt;p&gt;允许成员变量访问静态变量。成员变量只属于对象本身，不被其他对象调用。&lt;/p&gt;
+&lt;p&gt;如果使用 static 定义变量，该变量成为类的变量，可以直接调用无需实例化。所有类都可以调用它。&lt;/p&gt;
+&lt;h3 id=&#34;17-传值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#17-传值&#34;&gt;#&lt;/a&gt; 1.7 传值&lt;/h3&gt;
+&lt;p&gt;临时变量的只传递值，不改变原变量；&lt;/p&gt;
+&lt;p&gt;引用类型：传递地址。&lt;/p&gt;
+&lt;h3 id=&#34;18-类的说明符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#18-类的说明符&#34;&gt;#&lt;/a&gt; 1.8 类的说明符&lt;/h3&gt;
+&lt;h4 id=&#34;181-final&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#181-final&#34;&gt;#&lt;/a&gt; 1.8.1 final&lt;/h4&gt;
+&lt;p&gt;用于定义一个常量，例如 static final float PI = 3.14f；一般声明为静态。常量一般全大写。&lt;/p&gt;
+&lt;h4 id=&#34;182-abstract抽象类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#182-abstract抽象类&#34;&gt;#&lt;/a&gt; 1.8.2 abstract 抽象类&lt;/h4&gt;
+&lt;p&gt;用于定义抽象类，无法被实例化。只能给具体实现类继承。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;抽象类的特点&lt;/p&gt;
+&lt;p&gt;1. 抽象方法：&lt;/p&gt;
+&lt;p&gt;抽象类中可以包含抽象方法，抽象方法没有具体的实现，只有方法名和参数列表，不包含方法体。子类必须实现抽象方法，否则子类也必须声明为抽象类。&lt;/p&gt;
+&lt;p&gt;2. 实例化限制：&lt;/p&gt;
+&lt;p&gt;抽象类不能被实例化，也就是不能通过 new 关键字来创建抽象类的对象。只能通过继承抽象类，并实现其抽象方法后，使用子类来实例化对象。&lt;/p&gt;
+&lt;p&gt;3. 构造方法：&lt;/p&gt;
+&lt;p&gt;抽象类是不能被实例化的，因此抽象类的构造方法不能用来创建对象，只能被其子类调用。抽象类的构造方法的作用是初始化抽象类的成员变量和调用父类的构造方法。抽象类的构造方法的定义方式和普通类的构造方法相同，但是需要注意以下两点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;抽象类的构造方法不能使用 abstract 修饰符，因为构造方法不是抽象方法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;抽象类的子类必须实现其父类的构造方法，因为子类在实例化时需要先调用父类的构造方法完成初始化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意事项：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;抽象类可以包含非抽象方法和字段，子类可以继承和使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一个类只能继承一个抽象类，但可以同时实现多个接口。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;子类实现抽象方法时，方法签名必须与父类中的抽象方法完全一致，包括返回类型、方法名和参数列表。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;抽象方法没有方法体，不能使用  final 、 static 、 private  修饰符。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果子类继承抽象类但不实现抽象方法，那么子类也必须声明为抽象类。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;183-public&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#183-public&#34;&gt;#&lt;/a&gt; 1.8.3 public&lt;/h4&gt;
+&lt;p&gt;类的访问修饰符&lt;/p&gt;
+&lt;h4 id=&#34;184-native&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#184-native&#34;&gt;#&lt;/a&gt; 1.8.4 native&lt;/h4&gt;
+&lt;p&gt;使用 C 语言绕开某些问题&lt;/p&gt;
+&lt;h3 id=&#34;19关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#19关键字&#34;&gt;#&lt;/a&gt; 1.9 关键字&lt;/h3&gt;
+&lt;p&gt;JAVA 中的关键字是一些被编程语言所保留的标识符，用来表示特定的功能或具有特殊用途的单词。&lt;/p&gt;
+&lt;p&gt;JAVA 中的主要关键字：&lt;/p&gt;
+&lt;h4 id=&#34;基本关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本关键字&#34;&gt;#&lt;/a&gt; 基本关键字&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;abstract ：用于定义抽象类和抽象方法。&lt;/p&gt;
+&lt;p&gt;boolean ：表示布尔类型。&lt;/p&gt;
+&lt;p&gt;byte ：表示 8 位带符号整数类型。&lt;/p&gt;
+&lt;p&gt;char ：表示 16 位 Unicode 字符类型。&lt;/p&gt;
+&lt;p&gt;class ：用于定义类。&lt;/p&gt;
+&lt;p&gt;double ：表示 64 位双精度浮点类型。&lt;/p&gt;
+&lt;p&gt;enum ：用于定义枚举类型。&lt;/p&gt;
+&lt;p&gt;extends ：用于类的继承。&lt;/p&gt;
+&lt;p&gt;final ：表示不可改变的或最终的。&lt;/p&gt;
+&lt;p&gt;float ：表示 32 位单精度浮点类型。&lt;/p&gt;
+&lt;p&gt;implements ：用于类实现接口。&lt;/p&gt;
+&lt;p&gt;int ：表示 32 位有符号整数类型。&lt;/p&gt;
+&lt;p&gt;interface ：用于定义接口。&lt;/p&gt;
+&lt;p&gt;long ：表示 64 位有符号整数类型。&lt;/p&gt;
+&lt;p&gt;new ：用于创建新对象。&lt;/p&gt;
+&lt;p&gt;null ：表示空引用。&lt;/p&gt;
+&lt;p&gt;package ：用于定义包。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;private ：表示私有的。&lt;/p&gt;
+&lt;p&gt;protected ：表示受保护的。&lt;/p&gt;
+&lt;p&gt;public ：表示公共的。&lt;/p&gt;
+&lt;p&gt;return ：用于从方法返回值。&lt;/p&gt;
+&lt;p&gt;short ：表示 16 位有符号整数类型。&lt;/p&gt;
+&lt;p&gt;static ：表示静态的。&lt;/p&gt;
+&lt;p&gt;super ：用于引用父类。&lt;/p&gt;
+&lt;p&gt;switch ：用于开关语句。&lt;/p&gt;
+&lt;p&gt;this ：表示当前对象。&lt;/p&gt;
+&lt;p&gt;void ：表示没有返回值的。&lt;/p&gt;
+&lt;p&gt;while ：用于循环语句。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;保留关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#保留关键字&#34;&gt;#&lt;/a&gt; 保留关键字&lt;/h4&gt;
+&lt;p&gt;JAVA 还有一些被保留但尚未使用的关键字，如  goto 、 const 、 native 等。这些关键字是 JAVA 编程中的保留字，具有特殊的含义和用途。在编写代码时，应避免使用这些关键字作为标识符，以免引起编译错误。&lt;/p&gt;
+&lt;h4 id=&#34;关键字的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关键字的使用&#34;&gt;#&lt;/a&gt; 关键字的使用&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mbG93dXMuY24vMTc3NzMyYTUtODc2Zi00MGJmLWI1ZTUtMmMzNzFkMTM5NTEy&#34;&gt;关键字使用&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;110字面量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#110字面量&#34;&gt;#&lt;/a&gt; 1.10 字面量&lt;/h3&gt;
+&lt;p&gt;即数据在程序中的书写格式。主要有整数，小数，字符串，布尔，空类型和制表符（\t，\r，\n）等。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-15-17-27-07-143_com.wolai.flutt.png&#34; alt=&#34;Screenshot_2023-09-15-17-27-07-143_com.wolai.flutt.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Null 不能直接打印，必须加双引号；&lt;/p&gt;
+&lt;p&gt;注意单引号只能引单个字符；&lt;/p&gt;
+&lt;p&gt;制表符 t：将前面字符串补齐到 8 位。最少补 1，最多补 8 位&lt;/p&gt;
+&lt;h3 id=&#34;111运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#111运算符&#34;&gt;#&lt;/a&gt; 1.11 运算符&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1. 算数运算符&lt;/p&gt;
+&lt;p&gt;+、-、 *、/、%&lt;/p&gt;
+&lt;p&gt;小数参与计算，结果可能不精确，整数计算只会得到整数。&lt;/p&gt;
+&lt;p&gt;+ 可以用于字符串的拼接&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自增自减运算符&lt;/p&gt;
+&lt;p&gt;++ 变量的值加 1&lt;/p&gt;
+&lt;p&gt;位置决定变量的加 1 顺序。放在前面是先 + 1。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;赋值运算符&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关系运算符&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;逻辑运算符&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;三元运算符&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;运算符优先级&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;112语句块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#112语句块&#34;&gt;#&lt;/a&gt; 1.12 语句块&lt;/h3&gt;
+&lt;p&gt;类的定义只允许存在属性和方法，不允许存在语句。但是可以使用语句块（使用 {} 包括的语句）。语句块可以用 static 修饰。&lt;/p&gt;
+&lt;p&gt;一个类的静态方法被执行的时候，该类会被加载。类实例化或者加载之后，static 语句块就会被执行。但是静态语句块只会在类加载实例化的时候被执行一次。普通语句块会在每次实例化都加载一次。&lt;/p&gt;
+&lt;p&gt;可以在类的内部再次嵌套，即定义&lt;strong&gt;内部类&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;113-操作符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#113-操作符&#34;&gt;#&lt;/a&gt; 1.13 操作符&lt;/h3&gt;
+&lt;p&gt;instanceof ：返回布尔值，用于判断一个实例是否是一个类的一个对象。例如&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Fish&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;fish1&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Fish&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;System.out.println(fish1 &lt;span class=&#34;keyword&#34;&gt;instanceof&lt;/span&gt; Fish);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//返回值为Ture&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2idea使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2idea使用&#34;&gt;#&lt;/a&gt; 2.IDEA 使用&lt;/h2&gt;
+&lt;h3 id=&#34;21结构分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#21结构分类&#34;&gt;#&lt;/a&gt; 2.1 结构分类&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;Screenshot_2023-09-16-22-32-26-419_tv.danmaku.bili.png&#34; alt=&#34;Screenshot_2023-09-16-22-32-26-419_tv.danmaku.bili.png&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;211项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#211项目&#34;&gt;#&lt;/a&gt; 2.1.1 项目&lt;/h4&gt;
+&lt;h4 id=&#34;212模块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#212模块&#34;&gt;#&lt;/a&gt; 2.1.2 模块&lt;/h4&gt;
+&lt;h4 id=&#34;213包&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#213包&#34;&gt;#&lt;/a&gt; 2.1.3 包&lt;/h4&gt;
+&lt;p&gt;为了便于管理&lt;strong&gt;组织&lt;/strong&gt;大型软件系统中数目众多的类，&lt;strong&gt;解决类命名冲突&lt;/strong&gt;的问题，引入包的概念。&lt;/p&gt;
+&lt;p&gt;类文件必须处在同名的文件夹下面。使用 “-d .  Test.Java” 语句可以自动创建包文件夹。Java 自己提供了一组可以用的包。“import ” 导入类包。例如：“import Java.io.file”; 注意不要完全导入，用多少导入多少。&lt;/p&gt;
+&lt;h4 id=&#34;214类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#214类&#34;&gt;#&lt;/a&gt; 2.1.4 类&lt;/h4&gt;
+&lt;h3 id=&#34;22拓展设置与操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#22拓展设置与操作&#34;&gt;#&lt;/a&gt; 2.2 拓展设置与操作&lt;/h3&gt;
+&lt;p&gt;外观&lt;/p&gt;
+&lt;p&gt;psvm 主函数 /sout 输出语句&lt;/p&gt;
+&lt;h2 id=&#34;3继承&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3继承&#34;&gt;#&lt;/a&gt; 3. 继承&lt;/h2&gt;
+&lt;h3 id=&#34;31特点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#31特点&#34;&gt;#&lt;/a&gt; 3.1 特点&lt;/h3&gt;
+&lt;p&gt;使用 extends 关键字可以让子类继承父类的所有特性。&lt;/p&gt;
+&lt;p&gt;子类可以添加自己的特性，可以重写覆盖继承来的方法。重写依赖于重载的逻辑规则。&lt;/p&gt;
+&lt;p&gt;在存储时候，先分配父类，再给子类分配不同特性。继承自父类的直接使用父类的空间，子类自己重写的会单独分配空间。如果要在子类已经覆盖过的地方调用覆盖之前的父类，使用 super 调用原父类的属性或者方法。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;构造方法：在 JAVA 语言中，构造方法（Constructor）是一种特殊类型的方法，它用于创建和初始化对象。构造方法的名称与类名完全相同，且没有返回类型（包括 void）。构造方法在对象创建时自动调用，常用于初始化对象的成员变量。&lt;br /&gt;
+具体用法和注意事项如下：1. 构造方法的重载：一个类可以有多个构造方法，它们的参数列表不同，可以根据不同的初始化需求进行选择。2. 默认构造方法：如果一个类没有定义任何构造方法，编译器会自动生成一个无参的默认构造方法。3. 显式定义构造方法：如果在类中定义了一个或多个构造方法，编译器就不会再自动生成默认构造方法。因此，如果需要无参构造方法，必须显式定义。4. 构造方法的重要性：构造方法在创建对象时执行，可以用于进行对象的初始化操作，例如为成员变量赋初值、申请资源等。5. 注意参数的合法性：构造方法中可以进行参数的验证，确保传入的参数符合要求，避免后续出现错误。6. 避免过多的逻辑：构造方法应该尽量简洁，不应该包含过多的逻辑，以保持代码的可读性和可维护性。7. 构造方法的继承：子类在实例化时，会先调用父类的构造方法来创建父类对象，然后再进行子类的初始化。8. 继承无法继承私有 private 方法。&lt;br /&gt;
+构造方法在对象的创建和初始化过程中起着重要的作用，可以根据具体需求和设计原则灵活地使用和定义构造方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;32-使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#32-使用&#34;&gt;#&lt;/a&gt; 3.2 使用&lt;/h3&gt;
+&lt;p&gt;子类的构造方法被调用，将会自动产生隐含语句＂super（）；&amp;quot; 去调用父类的构造方法。例如&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Animal&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; length;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Fish&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Animals&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  Fish()&amp;#123;&lt;span class=&#34;built_in&#34;&gt;super&lt;/span&gt;();&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//会调用一次父类的构造方法，然后调用自己的构造方法。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在声明时候，可以使用父类实例化一个子类。（即向下转型操作），如果非要转换（向上转型），可以使用强制转换，但是不一定能成功：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Animal&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;a2&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Fish&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Fish&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;a4&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; (Fish) &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Animal&lt;/span&gt;();&lt;span class=&#34;comment&#34;&gt;//（失败）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Fish&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;a4&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; (Fish)a2;&lt;span class=&#34;comment&#34;&gt;//(成功，因为a2确实是fish）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;33-为什么需要类的转型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#33-为什么需要类的转型&#34;&gt;#&lt;/a&gt; 3.3 为什么需要类的转型？&lt;/h3&gt;
+&lt;p&gt;符合开闭原则（多增少改），一般在声明时候使用普通类，实例化使用具体类。有利于增加方法适用性，减少错误。在声明时，系统会把类处理为基类，即无法调用子类的特有方法，只能使用基类。运行时要看具体类的方法。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Animals&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;a1&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Fish&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;a1.swim();&lt;span class=&#34;comment&#34;&gt;//出错，a1在这里视为Animal&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;第三章-接口与实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三章-接口与实现&#34;&gt;#&lt;/a&gt; 第三章 接口与实现&lt;/h1&gt;
+&lt;p&gt;一种标准规范&lt;/p&gt;
+&lt;p&gt;接口内部不允许有实现。但是使用 default 修饰之后，可以让该方法在后面实现的时候不强制要求实现，系统会给到一个 &amp;quot;默认&amp;quot; 的实现。&lt;/p&gt;
+&lt;p&gt;优势：配定标准之后，可以无限复用。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Animal&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;cry&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  String &lt;span class=&#34;title function_&#34;&gt;getAnimalName&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;;          &lt;span class=&#34;comment&#34;&gt;//默认为public&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Cat&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;implements&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Animal&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;cry&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;                               &lt;span class=&#34;comment&#34;&gt;//默认为default，注意改成public&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; String &lt;span class=&#34;title function_&#34;&gt;getAnimalName&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;第四章-内部类与异常类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第四章-内部类与异常类&#34;&gt;#&lt;/a&gt; 第四章 内部类与异常类&lt;/h1&gt;
+&lt;p&gt;throwable 接口&lt;/p&gt;
+&lt;p&gt;error&lt;/p&gt;
+&lt;p&gt;exception&lt;/p&gt;
+&lt;p&gt;使用 throw 语句再次抛出 exception。&lt;/p&gt;
+&lt;p&gt;异常类的子类不能抛出更多种类的异常。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;try&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    div（&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;，&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;catch&lt;/span&gt;（Exception e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;div by zero&amp;quot;&lt;/span&gt; );&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    System.out.println(e.toString());&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;finally{}&lt;/p&gt;
+&lt;h1 id=&#34;第五章-常用类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第五章-常用类&#34;&gt;#&lt;/a&gt; 第五章 常用类&lt;/h1&gt;
+&lt;h3 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h3&gt;
+&lt;h1 id=&#34;第六章-输入与输出流io&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第六章-输入与输出流io&#34;&gt;#&lt;/a&gt; 第六章 输入与输出流（IO）&lt;/h1&gt;
+&lt;h2 id=&#34;1file类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1file类&#34;&gt;#&lt;/a&gt; 1.File 类&lt;/h2&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; java.io.File;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;FileTest&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;type&#34;&gt;File&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;f1&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;File&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;1.txt&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;type&#34;&gt;Fil2&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;f2&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;File&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(!f1.exists())&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;try&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;           f2.createNewFile();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;span class=&#34;keyword&#34;&gt;catch&lt;/span&gt;(Exception e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.printStackTrace();  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;span class=&#34;keyword&#34;&gt;catch&lt;/span&gt;(IOException e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;路径不存在&amp;quot;&lt;/span&gt;)；  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2流式io&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2流式io&#34;&gt;#&lt;/a&gt; 2. 流式 I/O&lt;/h2&gt;
+&lt;p&gt;流是字节的源或目的。两种基本流有：输入流和输出流。可以从中读出一系列字节的对象称为输入流，向其写入一系列字节的对象称为输出流。&lt;/p&gt;
+&lt;p&gt;另有字节流与字符流的区分。字符流是指使用可读的英文单词等等组成的内容，例如网页，源代码文件；而字节流是基本的流，不管可读性，存在大量其他控制代码等，例如 PPT，word 等。&lt;/p&gt;
+&lt;p&gt;节点流：从特定的地方读写的流。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;Buffered&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;br&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;BufferedReader&lt;/span&gt;(&lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;InputStream&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;第七章-多线程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第七章-多线程&#34;&gt;#&lt;/a&gt; 第七章 多线程&lt;/h1&gt;
 </content>
-        <updated>2025-08-16T10:18:37.686Z</updated>
+        <category term="Java" />
+        <updated>2025-08-27T17:25:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://ilgetar.github.io/2025/08/15/HelloWeb/</id>
+        <id>https://ilgetar.github.io/2025/08/28/HelloWeb/</id>
         <title>基于GitHub的个人网站搭建</title>
-        <link rel="alternate" href="https://ilgetar.github.io/2025/08/15/HelloWeb/"/>
+        <link rel="alternate" href="https://ilgetar.github.io/2025/08/28/HelloWeb/"/>
         <content type="html">&lt;p&gt;偶尔更新，经常做梦&lt;/p&gt;
 &lt;h1 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h1&gt;
 &lt;p&gt;​	取次花丛懒回顾，半缘修道半缘仙&lt;/p&gt;
@@ -85,11 +419,11 @@
 &lt;p&gt;​	在这篇文章中，我会整理出一份在搭建该网站的过程中所有的心得和笔记。&lt;/p&gt;
 &lt;p&gt;​	&lt;strong&gt;欢迎来到我的数字花园。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;搭建须知&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建须知&#34;&gt;#&lt;/a&gt; 搭建须知&lt;/h1&gt;
-&lt;h3 id=&#34;如何调整主题参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何调整主题参数&#34;&gt;#&lt;/a&gt; 如何调整主题参数&lt;/h3&gt;
+&lt;h2 id=&#34;如何调整主题参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何调整主题参数&#34;&gt;#&lt;/a&gt; 如何调整主题参数&lt;/h2&gt;
 &lt;p&gt;在 root/themes/shoka 下是主题的配置文件，在 language 文件下是语言包，在这里对网页主题的文字和各国语言文字进行配置和调整，以及配置必要的图标。在 config/yml 文件中可以对主题的主要参数和界面进行配置。&lt;/p&gt;
 &lt;p&gt;在 /root/ 下的 config.yml 中配置了网站本身的一些必要信息，包括网页标题，部署仓库等基础信息，在这里可以进行修改和调整。&lt;/p&gt;
 &lt;p&gt;在 /root/ 下的 source 文件中可以添加网站需要的数据信息，包括图片、文章等数据，在此处添加后再在别的代码中进行引用即可。&lt;/p&gt;
-&lt;h3 id=&#34;如何上传相关图片与文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何上传相关图片与文章&#34;&gt;#&lt;/a&gt; 如何上传相关图片与文章&lt;/h3&gt;
+&lt;h2 id=&#34;如何上传相关图片与文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何上传相关图片与文章&#34;&gt;#&lt;/a&gt; 如何上传相关图片与文章&lt;/h2&gt;
 &lt;p&gt;首先需要你在对应的界面配置好必要的程序代码，然后再进行推文的调用。&lt;/p&gt;
 &lt;p&gt;图片的调用可以使用本地的方法调用，例如存放在主题文件下：themes /shoka/source/images&lt;br /&gt;
  然后在其他的地方可以使用相对路径或者绝对路径进行调用，一般本地用来存放一些固定的图片，例如头像等。&lt;/p&gt;
@@ -99,7 +433,7 @@ YAML 只能用空格，不要用 Tab。&lt;br /&gt;
 同一层级的缩进必须一致（推荐 2 个空格）。&lt;br /&gt;
 可以在 bash 文档对应的位置进行 post 文档的创建和目录创建：&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;D：//切换D盘&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt;：root/source/_post/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo new post  //创建文章&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;cd&lt;/span&gt;: &lt;span class=&#34;built_in&#34;&gt;source&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo new page friends //创建页面&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3 id=&#34;使用卜算子以显示访客数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用卜算子以显示访客数据&#34;&gt;#&lt;/a&gt; 使用卜算子以显示访客数据&lt;/h3&gt;
+&lt;h2 id=&#34;使用卜算子以显示访客数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用卜算子以显示访客数据&#34;&gt;#&lt;/a&gt; 使用卜算子以显示访客数据&lt;/h2&gt;
 &lt;p&gt;Busuanzi (不蒜子) 是一款轻量、极简的网站访问量统计工具，通过嵌入 JavaScript 代码集成即可实现全站或单页面的 PV (浏览量) 和 UV (访客数) 等基础数据统计功能，适用于个人博客、企业官网等网站。&lt;br /&gt;
 使用以下代码以简单实现该功能：&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;src&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;//api.busuanzi.cc/static/3.6.9/busuanzi.min.js&amp;quot;&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;defer&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
@@ -111,13 +445,13 @@ YAML 只能用空格，不要用 Tab。&lt;br /&gt;
 2. 修改 themes/shoka/layout/_partials/footer.njk 文件：&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;105&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;106&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;107&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;108&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;109&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;110&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;111&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;112&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;113&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;114&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;115&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;116&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;117&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;118&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;119&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;120&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;121&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;122&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;123&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;124&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;125&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;126&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;127&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;128&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;129&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;130&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;131&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;132&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;133&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;134&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;135&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;136&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;137&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;138&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;139&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;140&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;# 按 order 升序排列的 footer 模块 #&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% set footer_items = [&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;name: &amp;#x27;copyright&amp;#x27;, order: 10&amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;name: &amp;#x27;count&amp;#x27;,     order: 20&amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;name: &amp;#x27;busuanzi&amp;#x27;,  order: 25&amp;#125;,  &amp;#123;# 添加不蒜子统计 #&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;name: &amp;#x27;running_time&amp;#x27;, order: theme.footer.running_time.order|default(30)&amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;name: &amp;#x27;powered&amp;#x27;,   order: 40&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;] | sort(attribute=&amp;#x27;order&amp;#x27;) %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;div class=&amp;quot;status&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#123;% for item in footer_items %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;% if item.name == &amp;#x27;copyright&amp;#x27; %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;div class=&amp;quot;copyright&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% set copyright_year = date(null, &amp;#x27;YYYY&amp;#x27;) %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;amp;copy;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% if theme.footer.since and theme.footer.since != copyright_year %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;&amp;#123; theme.footer.since &amp;#125;&amp;#125; – &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span itemprop=&amp;quot;copyrightYear&amp;quot;&amp;gt;&amp;#123;&amp;#123; copyright_year &amp;#125;&amp;#125;&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;with-love&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;i class=&amp;quot;ic i-&amp;#123;&amp;#123; theme.footer.icon.name &amp;#125;&amp;#125;&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;author&amp;quot; itemprop=&amp;quot;copyrightHolder&amp;quot;&amp;gt;&amp;#123;&amp;#123; author &amp;#125;&amp;#125; @ &amp;#123;&amp;#123; alternate if alternate else title&amp;#125;&amp;#125;&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;% elif item.name == &amp;#x27;count&amp;#x27; and theme.footer.count %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;div class=&amp;quot;count&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;post-meta-item-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;i class=&amp;quot;ic i-chart-area&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span title=&amp;quot;&amp;#123;&amp;#123; __(&amp;#x27;symbols_count_time.count_total&amp;#x27;) &amp;#125;&amp;#125;&amp;quot;&amp;gt;&amp;#123;&amp;#123; symbolsCountTotal(site) &amp;#125;&amp;#125; &amp;#123;&amp;#123;__(&amp;#x27;symbols_count_time.word&amp;#x27;)&amp;#125;&amp;#125;&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;post-meta-item-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;i class=&amp;quot;ic i-coffee&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span title=&amp;quot;&amp;#123;&amp;#123; __(&amp;#x27;symbols_count_time.time_total&amp;#x27;) &amp;#125;&amp;#125;&amp;quot;&amp;gt;&amp;#123;&amp;#123; symbolsTimeTotal(site, config.symbols_count_time.awl, config.symbols_count_time.wpm, __(&amp;#x27;symbols_count_time.time_minutes&amp;#x27;)) &amp;#125;&amp;#125;&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;% elif item.name == &amp;#x27;busuanzi&amp;#x27; and theme.footer.busuanzi.enable %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;div class=&amp;quot;busuanzi-stats&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% if theme.footer.busuanzi.show_site_pv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span class=&amp;quot;post-meta-item-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;i class=&amp;quot;ic i-eye&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span title=&amp;quot;网站总访问量&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            总访问量 &amp;lt;span id=&amp;quot;busuanzi_value_site_pv&amp;quot;&amp;gt;0&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% if theme.footer.busuanzi.show_site_uv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;% if theme.footer.busuanzi.show_site_pv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span class=&amp;quot;post-meta-item-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;i class=&amp;quot;ic i-user&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span title=&amp;quot;网站总访客数&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            总访客数 &amp;lt;span id=&amp;quot;busuanzi_value_site_uv&amp;quot;&amp;gt;0&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% if theme.footer.busuanzi.show_page_pv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;% if theme.footer.busuanzi.show_site_pv or theme.footer.busuanzi.show_site_uv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span class=&amp;quot;post-meta-item-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;i class=&amp;quot;ic i-chart-line&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span title=&amp;quot;本页访问量&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            本页访问 &amp;lt;span id=&amp;quot;busuanzi_value_page_pv&amp;quot;&amp;gt;0&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% if theme.footer.busuanzi.show_page_uv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;% if theme.footer.busuanzi.show_page_pv or theme.footer.busuanzi.show_site_pv or theme.footer.busuanzi.show_site_uv %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;span class=&amp;quot;post-meta-divider&amp;quot;&amp;gt;|&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span class=&amp;quot;post-meta-item-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;i class=&amp;quot;ic i-users&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;span title=&amp;quot;本页访客数&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            本页访客 &amp;lt;span id=&amp;quot;busuanzi_value_page_uv&amp;quot;&amp;gt;0&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;% elif item.name == &amp;#x27;running_time&amp;#x27; and theme.footer.running_time.enable %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;div class=&amp;quot;running-time&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;running-time-icon&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;i class=&amp;quot;ic i-clock&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;span class=&amp;quot;running-time-text&amp;quot; id=&amp;quot;site-running-time&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;lt;!-- 占位，JS 会填充 --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;% elif item.name == &amp;#x27;powered&amp;#x27; and theme.footer.powered %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;div class=&amp;quot;powered-by&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;&amp;#123; __(&amp;#x27;footer.powered&amp;#x27;, &amp;#x27;&amp;lt;a href=&amp;quot;https://hexo.io&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;Hexo&amp;lt;/a&amp;gt; &amp;amp; Theme.&amp;lt;a href=&amp;quot;https://github.com/amehime/hexo-theme-shoka&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;Shoka&amp;lt;/a&amp;gt;&amp;#x27;) &amp;#125;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#123;% endfor %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;# 添加不蒜子统计脚本 #&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% if theme.footer.busuanzi.enable %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script async src=&amp;quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;# running_time 的脚本，仅当启用时才注入 #&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% if theme.footer.running_time.enable %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  const start = new Date(&amp;#x27;&amp;#123;&amp;#123; theme.footer.running_time.birthday &amp;#125;&amp;#125;&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  const SECOND = 1000, MINUTE = 60 * SECOND, HOUR = 60 * MINUTE, DAY = 24 * HOUR;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  function pad(n)&amp;#123; return n.toString().padStart(2,&amp;#x27;0&amp;#x27;); &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  function tick()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    let delta = Date.now() - start;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    const days  = Math.floor(delta / DAY); delta %= DAY;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    const hrs   = Math.floor(delta / HOUR); delta %= HOUR;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    const mins  = Math.floor(delta / MINUTE); delta %= MINUTE;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    const secs  = Math.floor(delta / SECOND);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    const now = new Date();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    let y = now.getFullYear() - start.getFullYear();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    let m = now.getMonth() - start.getMonth();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    let d = now.getDate() - start.getDate();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if (d &amp;lt; 0)&amp;#123; m--; d += new Date(now.getFullYear(), now.getMonth(), 0).getDate(); &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if (m &amp;lt; 0)&amp;#123; y--; m += 12; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.getElementById(&amp;#x27;site-running-time&amp;#x27;).innerHTML =&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      `本站居然已运行了 &amp;lt;span class=&amp;quot;running-time-number&amp;quot;&amp;gt;$&amp;#123;y&amp;#125;&amp;lt;/span&amp;gt; 年 &amp;lt;span class=&amp;quot;running-time-number&amp;quot;&amp;gt;$&amp;#123;m&amp;#125;&amp;lt;/span&amp;gt; 月 &amp;lt;span class=&amp;quot;running-time-number&amp;quot;&amp;gt;$&amp;#123;d&amp;#125;&amp;lt;/span&amp;gt; 日 &amp;lt;span class=&amp;quot;running-time-number&amp;quot;&amp;gt;$&amp;#123;hrs&amp;#125;&amp;lt;/span&amp;gt;小时&amp;lt;span class=&amp;quot;running-time-number&amp;quot;&amp;gt;$&amp;#123;mins&amp;#125;&amp;lt;/span&amp;gt;分钟&amp;lt;span class=&amp;quot;running-time-number&amp;quot;&amp;gt;$&amp;#123;secs&amp;#125;&amp;lt;/span&amp;gt;秒`;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  tick();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  setInterval(tick, 1000);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% endif %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
  在这里需要注意的是，其中注入的 &amp;quot;&lt;a href=&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;&gt;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&lt;/a&gt;&amp;quot; 必须要是可以链接的位置。主要还是因为卜算子属于国内站点&lt;s&gt;而 GitHub 站点属于国外&lt;/s&gt;，如果无法链接就需要采用镜像。当然本地也可以部署。更多可以看&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYnVzdWFuemkuY2Mv&#34;&gt;官网信息&lt;/span&gt;。在本地测试的时候有时候数据会很巨大，那是正常的，部署后联网调试就好，本地测试显示的数字据说是所有人在本地测试的次数。&lt;/p&gt;
-&lt;h3 id=&#34;如何将主页菜单挂载到页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何将主页菜单挂载到页面&#34;&gt;#&lt;/a&gt; 如何将主页菜单挂载到页面&lt;/h3&gt;
+&lt;h2 id=&#34;如何将主页菜单挂载到页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何将主页菜单挂载到页面&#34;&gt;#&lt;/a&gt; 如何将主页菜单挂载到页面&lt;/h2&gt;
 &lt;p&gt;在 bash 对应目录下输入 hexo new page XXX, 然后可以在主题的 config 下创建对应的菜单挂载，然后就可以实现对应页面的跳转。&lt;/p&gt;
 &lt;p&gt;然后在对应的页面文件夹内部就会自动生成一个 index.html 文件，这就是我们必要的页面文件，可以直接在这里编写你 1 的页面内容。&lt;/p&gt;
 &lt;p&gt;在这里有一个 permalink 的概念，但是我没搞明白。&lt;/p&gt;
 &lt;p&gt;为什么「首页」没有挂页面却有内容？ &lt;strong&gt;home&lt;/strong&gt; 对应的 URL 是  &lt;code&gt;/&lt;/code&gt; ，它指向 &lt;strong&gt;Hexo 自动生成的首页模板&lt;/strong&gt;（index.html）。&lt;br /&gt;
 这个模板由主题  &lt;code&gt;layout/index.njk&lt;/code&gt;  渲染，会把最近的文章列表、置顶文章、分页等一次性展示出来，&lt;strong&gt;不需要你手动写任何 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2luZGV4Lm1k&#34;&gt;index.md&lt;/span&gt;&lt;/strong&gt;。因此「/」本身并非一个「page」，而是一条虚拟路由，主题默认就渲染内容。&lt;/p&gt;
-&lt;h3 id=&#34;使用categoriy分类标签以实现推文分类功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用categoriy分类标签以实现推文分类功能&#34;&gt;#&lt;/a&gt; 使用 categoriy 分类标签以实现推文分类功能&lt;/h3&gt;
+&lt;h2 id=&#34;使用categoriy分类标签以实现推文分类功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用categoriy分类标签以实现推文分类功能&#34;&gt;#&lt;/a&gt; 使用 categoriy 分类标签以实现推文分类功能&lt;/h2&gt;
 &lt;p&gt;使用分类（Categories）和页面生成器&lt;/p&gt;
 &lt;p&gt;这是最推荐的方法，通过创建带有特定分类的文章，然后使用页面生成器来显示特定分类的文章。&lt;/p&gt;
 &lt;p&gt;步骤 1：创建文章&lt;/p&gt;
@@ -203,11 +537,12 @@ YAML 只能用空格，不要用 Tab。&lt;br /&gt;
 &lt;li&gt;2025.8.14，添加了 bgm 功能和页脚计时器，暂时没有对这部分 css 做调整。&lt;/li&gt;
 &lt;li&gt;2025.8.15，新增了浏览数和访客数页脚显示，建立了自有的 picgo 图床，注册了 Typora 工具，可以使用新工具创建 markdown 文档。&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;89 的工具其实还是好贵&lt;/span&gt;但是暂时没有解决首页头图无法显示的问题，文章 cover 可以正常使用图床绝对链接来定义加载，首页的加载逻辑在 layout/pratial 下，图片在主题的 image.yml 文件下，暂时没有解决该问题。&lt;/li&gt;
 &lt;li&gt;2025.8.16，创建了主页菜单每个对应的 page 页面，实现了对应页面的跳转。创建了部分推文，编写了部分内容。&lt;/li&gt;
+&lt;li&gt;2025.8.27，添加了一些文档内容，确定了文档编写的模式。新增文档应该使用 hexo 创建文件&lt;/li&gt;
 &lt;/ol&gt;
 </content>
         <category term="web" />
         <category term="guide" />
-        <updated>2025-08-15T15:42:30.771Z</updated>
+        <updated>2025-08-27T16:45:02.465Z</updated>
     </entry>
     <entry>
         <id>https://ilgetar.github.io/2025/08/09/Blender%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
@@ -216,28 +551,6 @@ YAML 只能用空格，不要用 Tab。&lt;br /&gt;
         <content type="html">&lt;h1 id=&#34;这里是测试文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这里是测试文字&#34;&gt;#&lt;/a&gt; 这里是测试文字&lt;/h1&gt;
 &lt;h2 id=&#34;等待补充完善&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#等待补充完善&#34;&gt;#&lt;/a&gt; 等待补充完善&lt;/h2&gt;
 </content>
-        <updated>2025-08-09T11:42:08.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://ilgetar.github.io/2025/08/09/%E7%9F%AD%E8%A7%86%E9%A2%91%E6%AD%A3%E5%9C%A8%E6%91%A7%E6%AF%81%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%90%97/</id>
-        <title>短视频正在摧毁我们的下一代吗</title>
-        <link rel="alternate" href="https://ilgetar.github.io/2025/08/09/%E7%9F%AD%E8%A7%86%E9%A2%91%E6%AD%A3%E5%9C%A8%E6%91%A7%E6%AF%81%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%90%97/"/>
-        <content type="html">&lt;p&gt;。。。。。。。。。&lt;br /&gt;
-balablabala&lt;/p&gt;
-</content>
-        <updated>2025-08-09T11:42:08.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://ilgetar.github.io/2025/08/09/%E6%B2%89%E6%B2%A1%E7%9A%84%E5%A4%A7%E5%AD%A6/</id>
-        <title>沉没的大学</title>
-        <link rel="alternate" href="https://ilgetar.github.io/2025/08/09/%E6%B2%89%E6%B2%A1%E7%9A%84%E5%A4%A7%E5%AD%A6/"/>
-        <content type="html">&lt;h1 id=&#34;沉没的大学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#沉没的大学&#34;&gt;#&lt;/a&gt; 沉没的大学&lt;/h1&gt;
-&lt;p&gt;在大学的时光总是十分短暂，随着人生的不断向前，时间就像一只箭一样嗖的一下就流逝了。一转眼各奔东西，留下少量的八卦和回忆。一回头，发现大学的邮轮已经沉没在了海底，不仅仅是因为人的离开，也因为越来越多的人在到来。&lt;/p&gt;
-&lt;p&gt;首先就是大学的制度本身。&lt;/p&gt;
-&lt;p&gt;其次就是象牙塔的局限性。&lt;/p&gt;
-&lt;p&gt;再三就是社会的演变必然导致的终局。&lt;/p&gt;
-</content>
-        <category term="随笔" />
         <updated>2025-08-09T11:42:08.000Z</updated>
     </entry>
 </feed>
